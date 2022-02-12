@@ -1,0 +1,37 @@
+.size{
+    width: 65%;
+    box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.2);
+}
+.red{
+    color: #333;
+}
+.btn{
+    background-color: #03787C;
+    color: #fff;
+    width: 25%;
+    border-radius: 0px;
+}
+.form-label{
+    font-size: 1.2em;
+}
+.form-control{
+    height: 2.8em;
+    border-radius: 0px;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
